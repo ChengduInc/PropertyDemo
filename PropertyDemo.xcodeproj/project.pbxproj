@@ -8,24 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		18C105E22100A54C006FA44C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C105E12100A54C006FA44C /* AppDelegate.m */; };
-		18C105E52100A54C006FA44C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C105E42100A54C006FA44C /* ViewController.m */; };
 		18C105E82100A54C006FA44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C105E62100A54C006FA44C /* Main.storyboard */; };
 		18C105EA2100A54D006FA44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C105E92100A54D006FA44C /* Assets.xcassets */; };
 		18C105ED2100A54D006FA44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C105EB2100A54D006FA44C /* LaunchScreen.storyboard */; };
 		18C105F02100A54D006FA44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C105EF2100A54D006FA44C /* main.m */; };
+		18C105F82100A571006FA44C /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C105F72100A571006FA44C /* FirstViewController.m */; };
+		18C105FB2100A581006FA44C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C105FA2100A581006FA44C /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18C105DD2100A54C006FA44C /* PropertyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C105E02100A54C006FA44C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18C105E12100A54C006FA44C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18C105E32100A54C006FA44C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18C105E42100A54C006FA44C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18C105E72100A54C006FA44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18C105E92100A54D006FA44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C105EC2100A54D006FA44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C105EE2100A54D006FA44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18C105EF2100A54D006FA44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C105F62100A571006FA44C /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		18C105F72100A571006FA44C /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		18C105F92100A581006FA44C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		18C105FA2100A581006FA44C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,10 @@
 			children = (
 				18C105E02100A54C006FA44C /* AppDelegate.h */,
 				18C105E12100A54C006FA44C /* AppDelegate.m */,
-				18C105E32100A54C006FA44C /* ViewController.h */,
-				18C105E42100A54C006FA44C /* ViewController.m */,
+				18C105F62100A571006FA44C /* FirstViewController.h */,
+				18C105F72100A571006FA44C /* FirstViewController.m */,
+				18C105F92100A581006FA44C /* SecondViewController.h */,
+				18C105FA2100A581006FA44C /* SecondViewController.m */,
 				18C105E62100A54C006FA44C /* Main.storyboard */,
 				18C105E92100A54D006FA44C /* Assets.xcassets */,
 				18C105EB2100A54D006FA44C /* LaunchScreen.storyboard */,
@@ -141,8 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18C105E52100A54C006FA44C /* ViewController.m in Sources */,
+				18C105FB2100A581006FA44C /* SecondViewController.m in Sources */,
 				18C105F02100A54D006FA44C /* main.m in Sources */,
+				18C105F82100A571006FA44C /* FirstViewController.m in Sources */,
 				18C105E22100A54C006FA44C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
